@@ -1,0 +1,10 @@
+index.js: This is the entry file for your application. It registers your app's main component and uses AppRegistry from the React Native library. This file typically doesn't contain much logic, mainly importing the App component and registering it.
+App.js or App.tsx (if you're using TypeScript): This is the root component of your React Native application. It's the starting point for building your app's view. In this file, you'll begin using various React Native components to build your user interface.
+/android and /ios directories: These directories contain platform-specific code and configuration files. For instance, if you need to add some native modules or change native configurations, you might need to edit files in these directories. The /android directory contains Android project files, while the /ios directory contains iOS project files.
+/node_modules: This directory contains all the project dependencies. When you install packages using npm or yarn, they are downloaded into this directory.
+package.json: This file holds the metadata of your project, such as the name, version, dependencies, scripts, etc. It's a standard npm file used to manage the project's dependencies and configurations.
+babel.config.js or .babelrc: The configuration file for Babel. React Native uses Babel to transform ES6+ JavaScript code to code that's compatible with current JavaScript engines. This file allows you to customize the transformation rules and plugins.
+metro.config.js: Metro is the tool used by React Native to bundle JavaScript code. This configuration file allows you to customize the bundling process.
+.gitignore: This file tells Git which files or directories should not be included in version control. Directories like /node_modules, for example, are typically ignored because they can be reconstructed from the dependency information in package.json.
+/assets: This directory is for storing static assets used in the app, like images, fonts, etc.
+__tests__: This directory is for storing test files for your app. React Native supports Jest as its test framework, and you can add your tests in this directory.
