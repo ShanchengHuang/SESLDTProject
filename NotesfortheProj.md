@@ -1,3 +1,4 @@
+# What are the files used for:
 - index.js: This is the entry file for your application. It registers your app's main component and uses AppRegistry from the React Native library. This file typically doesn't contain much logic, mainly importing the App component and registering it.
 - App.js or App.tsx (if you're using TypeScript): This is the root component of your React Native application. It's the starting point for building your app's view. In this file, you'll begin using various React Native components to build your user interface.
 - /android and /ios directories: These directories contain platform-specific code and configuration files. For instance, if you need to add some native modules or change native configurations, you might need to edit files in these directories. The /android directory contains Android project files, while the /ios directory contains iOS project files.
